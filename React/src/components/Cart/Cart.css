@@ -1,0 +1,18 @@
+.offCanvas__minicart .error{
+    animation: error_border ease 1.5s;
+}
+
+@keyframes  error_border {
+  0%{
+    color:#ed1d24;
+    font-weight: bold;
+  }
+  90%{
+    color:#ed1d24;
+    font-weight: bold;
+  }
+  100% {
+    color:inherit;
+    font-weight: normal;
+  }
+}
